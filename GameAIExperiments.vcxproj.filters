@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorGraphics\src\ofxVectorGraphics.cpp">
+      <Filter>addons\ofxVectorGraphics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS.cpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backend\entity\component\transform\Transform.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\Boid.cpp" />
+    <ClCompile Include="src\backend\entity\GameObject.cpp" />
+    <ClCompile Include="src\frontend\scenes\kseeker_scene\KSeekerScene.cpp" />
+    <ClCompile Include="src\backend\ai\movement\kinematic\wander\KWander.cpp" />
+    <ClCompile Include="src\backend\entity\component\rigidbody2d\Rigidbody2D.cpp" />
+    <ClCompile Include="src\backend\ai\movement\kinematic\seek\KSeek.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\seeker\SeekerBoid.cpp" />
+    <ClCompile Include="src\backend\ai\movement\kinematic\flee\KFlee.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\fleer\FleerBoid.cpp" />
+    <ClCompile Include="src\frontend\scenes\kfleer_scene\KFleer.cpp" />
+    <ClCompile Include="src\backend\ai\movement\kinematic\arrive\KArrive.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\arrive\ArriveBoid.cpp" />
+    <ClCompile Include="src\frontend\scenes\karrive_scene\KArriveScene.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\wander\WanderBoid.cpp" />
+    <ClCompile Include="src\frontend\scenes\kwander_scene\KWanderScene.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\arrive\DArrive.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\flee\DFlee.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\seek\DSeek.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\velocity_match\VelocityMatch.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\align\Align.cpp" />
+    <ClCompile Include="src\frontend\scenes\dynamic_scene\DynamicScene.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\align\AlignBoid.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\face\Face.cpp" />
+    <ClCompile Include="src\frontend\scenes\face_scene\FaceScene.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\face\FaceBoid.cpp" />
+    <ClCompile Include="src\backend\ai\movement\dynamic\wander\Wander.cpp" />
+    <ClCompile Include="src\frontend\characters\boid\dynamic_wander\DWanderBoid.cpp" />
+    <ClCompile Include="src\frontend\scenes\dwander_scene\DWanderScene.cpp" />
+    <ClCompile Include="src\frontend\scenes\eae6900_scene\EAE6900Scene.cpp" />
+    <ClCompile Include="src\frontend\characters\eae6900\dynamic_wander\DWanderBoid.cpp" />
+    <ClCompile Include="src\frontend\characters\eae6900\align\AlignBoid.cpp" />
+    <ClCompile Include="src\frontend\characters\eae6900\face\FaceBoid.cpp" />
+    <ClCompile Include="src\backend\eae6900\wander\Wander.cpp" />
+    <ClCompile Include="src\backend\eae6900\face\Face.cpp" />
+    <ClCompile Include="src\backend\eae6900\align\Align.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{47EF169A--5C1-9-40-31-A-36E-FECAF89BDA96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{26A30A97--C0E-3-4A-18-9-9C4-4F6A310526BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{3536AAF0--EBF-A-4A-A3-B-16B-5005E6AD94FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics">
+      <UniqueIdentifier>{EAD86510--641-E-4F-26-A-0B1-3B3CD11ABA0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics\src">
+      <UniqueIdentifier>{F30E07E4--8FB-3-4F-8B-9-C74-A1F3E57DD6D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics\libs">
+      <UniqueIdentifier>{95252C27--A57-1-4B-90-9-FBD-3B0320B82F3C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiUtils.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\src\ofxVectorGraphics.h">
+      <Filter>addons\ofxVectorGraphics\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS.hpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS_Types.hpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backend\ai\movement\SteeringBehavior.h" />
+    <ClInclude Include="src\backend\entity\GameObject.h" />
+    <ClInclude Include="src\backend\entity\component\transform\Transform.h" />
+    <ClInclude Include="src\frontend\characters\boid\Boid.h" />
+    <ClInclude Include="src\backend\Scene.h" />
+    <ClInclude Include="src\frontend\scenes\kseeker_scene\KSeekerScene.h" />
+    <ClInclude Include="src\backend\ai\movement\kinematic\wander\KWander.h" />
+    <ClInclude Include="src\backend\entity\component\rigidbody2d\Rigidbody2D.h" />
+    <ClInclude Include="src\backend\utility\Random.h" />
+    <ClInclude Include="src\backend\ai\movement\kinematic\seek\KSeek.h" />
+    <ClInclude Include="src\frontend\characters\boid\seeker\SeekerBoid.h" />
+    <ClInclude Include="src\backend\ai\movement\kinematic\flee\KFlee.h" />
+    <ClInclude Include="src\frontend\characters\boid\fleer\FleerBoid.h" />
+    <ClInclude Include="src\frontend\scenes\kfleer_scene\KFleerScene.h" />
+    <ClInclude Include="src\backend\ai\movement\kinematic\arrive\KArrive.h" />
+    <ClInclude Include="src\frontend\characters\boid\arrive\ArriveBoid.h" />
+    <ClInclude Include="src\frontend\scenes\karrive_scene\KArriveScene.h" />
+    <ClInclude Include="src\frontend\characters\boid\wander\WanderBoid.h" />
+    <ClInclude Include="src\frontend\scenes\kwander_scene\KWanderScene.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\arrive\DArrive.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\flee\DFlee.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\seek\DSeek.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\velocity_match\VelocityMatch.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\align\Align.h" />
+    <ClInclude Include="src\frontend\scenes\dynamic_scene\DynamicScene.h" />
+    <ClInclude Include="src\frontend\characters\boid\align\AlignBoid.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\face\Face.h" />
+    <ClInclude Include="src\frontend\scenes\face_scene\FaceScene.h" />
+    <ClInclude Include="src\frontend\characters\boid\face\FaceBoid.h" />
+    <ClInclude Include="src\backend\ai\movement\dynamic\wander\Wander.h" />
+    <ClInclude Include="src\frontend\characters\boid\dynamic_wander\DWanderBoid.h" />
+    <ClInclude Include="src\frontend\scenes\dwander_scene\DWanderScene.h" />
+    <ClInclude Include="src\frontend\scenes\eae6900_scene\EAE6900Scene.h" />
+    <ClInclude Include="src\backend\eae6900\align\Align.h" />
+    <ClInclude Include="src\backend\eae6900\face\Face.h" />
+    <ClInclude Include="src\backend\eae6900\wander\Wander.h" />
+    <ClInclude Include="src\frontend\characters\eae6900\dynamic_wander\DWanderBoid.h" />
+    <ClInclude Include="src\frontend\characters\eae6900\align\AlignBoid.h" />
+    <ClInclude Include="src\frontend\characters\eae6900\face\FaceBoid.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
